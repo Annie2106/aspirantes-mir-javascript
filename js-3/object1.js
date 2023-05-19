@@ -24,7 +24,7 @@ for (let llave in persona) {
   }
 }
 
-
+//Agrégale al objeto una función llamada saluda que retorne la frase “Hola, me llamo ” seguido del nombre de la persona.
 persona ["saluda"] = function(){
     return "Hola, me llamo  " +  this.nombre;
 };
